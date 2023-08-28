@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Placement prediction</title>
+        <style>
+            body{
+                background-color: #97c8ed;
+                margin: 0;
+                padding: 0;
+            }
+            form{
+                border: 1px solid white;
+                width: 450px;
+                padding: 20px;
+                padding-top: 0px;
+                margin: 0 auto;
+                border-radius: 10px;
+                background-color: white;
+                box-shadow: 1px 1px 3px 3px lightgrey;
+            }
+            label{
+                display: inline-block;
+                width: 200px;
+                font-size: 20px;
+            }
+            .in,select{
+                padding: 5px;
+                border-radius: 7px;
+                border: 1px solid;
+                /* width: 200px; */
+            }
+            hr{
+                width: 460px;
+            }
+            h1,h4{
+                text-align: center;
+                margin-bottom: 10px;
+            }
+            .names{
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: flex-start;
+            }
+            footer{
+                position: fixed;
+                bottom: 0;
+                /* border: 1px solid; */
+                background-color: rgb(0, 132, 255);
+                width: 100vw;
+                font-size: 20px;
+                color: white;
+            }
+            .copy{
+                text-align: center;
+            }
+            .dev{
+                margin-left: 20px;
+                color: white;
+            }
+            a{
+                text-decoration: none;
+                color: black;
+            }
+            a:hover{
+                text-decoration: underline;
+                color: white;
+            }
+            .but{
+                padding: 6px;
+                font-size: 15px;
+                border-radius: 10px;
+                border: 1px solid;
+            }
+            .but:hover{
+                cursor: pointer;
+                background-color: rgb(91, 91, 248);
+                color: white;
+            }
+            input[type=submit]{
+                margin-left:180px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Placement Prediction</h1>
+        <h4>This project is developed as a part of IBM Hack challenge 2023</h4>
+        <form action="/login" method="post">
+            <h2>Placement Prediction</h2><hr><br>
+            <label>SSC Percentage:</label>
+            <input type="text" name="sscp" class="in"><br><br>
+            <label>Degree Percentage:</label>
+            <input type="text" class="in" name="dgp"><br><br>
+            <label>HighSchool Percentage:</label>
+            <input type="text" class="in" name="hscp"><br><br>
+            <label>MBA Percentage:</label>
+            <input type="text" class="in" name="mbap"><br><br>
+            <label>Specialization:</label>
+            <select name="spc">
+                <option value="" selected>Select your specialization</option>
+                <option value="mhr">Mkt&HR</option>
+                <option value="mfin">Mkt&Fin</option>
+            </select>
+            <br><br>
+            <input type="submit" value="Predict" class="but">
+        </form>
+        <h1>{{y}}</h1>
+        <footer>
+            Developers:
+            <div class="names">
+                <a href="https://www.linkedin.com/in/harshith-gamini-9990b4250/" target="_blank"><div class="dev">G V C Harshith</div></a>
+                <a href="https://www.linkedin.com/in/satish-pulleti-b35238235/" target="_blank"><div class="dev">P L S N V Satish</div></a>
+                <a href="https://www.linkedin.com/in/avinash-yarabothu-432b39274/" target="_blank"><div class="dev">Y Avinash</div></a>
+            </div>
+            <div class="copy">Copyright &copy; 2023 Developers. All rights reserved.</div>
+        </footer>
+    </body>
+</html>
