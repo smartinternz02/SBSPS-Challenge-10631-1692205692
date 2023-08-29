@@ -3,8 +3,8 @@ Getting Started with Enterprise Data Science Badge: https://www.credly.com/badge
 Journey to Cloud Envisioning your Solution Badge: https://www.credly.com/badges/86415ec2-5704-4bee-b201-db6ad787f13c/public_url
 
 P L S N V Satish:
-Getting Started with Enterprise Data Science Badge:
-Journey to Cloud Envisioning your Solution Badge:
+Getting Started with Enterprise Data Science Badge: https://www.credly.com/badges/ad47e726-382a-4949-a035-344f8ff3c15b/public_url
+Journey to Cloud Envisioning your Solution Badge: https://www.credly.com/badges/93d8802a-6465-4f22-8dc0-b4480db0a103/public_url
 
 Y Avinash:
 Getting Started with Enterprise Data Science Badge:
