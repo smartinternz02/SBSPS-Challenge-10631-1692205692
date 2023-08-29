@@ -6,4 +6,4 @@ The "app.py" is the Python file which contains the program to integrate with the
 
 Prediction.pkl is the saved file of trained model.
 
-The Templates folder contains the HTML files.
+The Templates folder contains the HTML Files.
