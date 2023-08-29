@@ -29,7 +29,7 @@ def login():
     else:
         output="Not placed"
     print(output)
-    return render_template('index.html',y="Predicted Profit: "+output)
+    return render_template('index.html',y="Predicted Placement: "+output)
 
 if __name__ == '__main__':
     app.run()
