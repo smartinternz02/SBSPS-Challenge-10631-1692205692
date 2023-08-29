@@ -14,4 +14,5 @@ Team Name: Cognitive Coding Trio
 
 - [@Harshith-Gamini](https://github.com/Harshith-Gamini)
 - [@Avinash1824](https://github.com/Avinash1824)
+- [@SatishPulleti](https://github.com/SatishPulleti)
 
