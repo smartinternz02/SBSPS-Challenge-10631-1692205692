@@ -9,3 +9,9 @@ This project is developed as a part of IBM Hack Challenge 2023.
 Developed by: Harshith Gamini, Satish Pulleti, Avinash Yarabothu. 
 
 Team Name: Cognitive Coding Trio
+
+## Team Members
+
+- [@Harshith-Gamini](https://github.com/Harshith-Gamini)
+- [@Avinash1824](https://github.com/Avinash1824)
+
